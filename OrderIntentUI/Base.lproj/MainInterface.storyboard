@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Intent View Controller-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController id="ObA-dk-sSI" customClass="IntentViewController" customModule="OrderIntentUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Everything is ok? " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMx-K0-c3r">
+                                <rect key="frame" x="93" y="144.5" width="134" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ry6-5Z-xc1">
+                                <rect key="frame" x="95" y="15" width="210" height="112"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kgY-Zf-2uw">
+                                        <rect key="frame" x="0.0" y="0.0" width="210" height="112"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Burger Name Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgA-bA-6oO">
+                                                <rect key="frame" x="0.0" y="0.0" width="210" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FmI-2p-NQF">
+                                                <rect key="frame" x="0.0" y="30.5" width="210" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Additions Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHF-vL-Ijr">
+                                                <rect key="frame" x="0.0" y="61" width="210" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wait Time Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcg-he-CzD">
+                                                <rect key="frame" x="0.0" y="91.5" width="210" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="l6F-Lp-Vsd">
+                                <rect key="frame" x="15" y="15" width="65" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="0K0-tE-gUj"/>
+                                    <constraint firstAttribute="height" constant="60" id="ztZ-kA-uUQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.76862745099999996" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="HMx-K0-c3r" firstAttribute="centerX" secondItem="zMn-AG-sqS" secondAttribute="centerX" id="3wS-xx-nKd"/>
+                            <constraint firstItem="4PN-XC-lEE" firstAttribute="trailing" secondItem="ry6-5Z-xc1" secondAttribute="trailing" constant="15" id="T95-CT-YWM"/>
+                            <constraint firstItem="l6F-Lp-Vsd" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" constant="15" id="b7f-Um-EGy"/>
+                            <constraint firstAttribute="bottom" secondItem="HMx-K0-c3r" secondAttribute="bottom" constant="15" id="dSr-xJ-WbT"/>
+                            <constraint firstItem="l6F-Lp-Vsd" firstAttribute="leading" secondItem="4PN-XC-lEE" secondAttribute="leading" constant="15" id="djF-ZF-oPT"/>
+                            <constraint firstItem="ry6-5Z-xc1" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" constant="15" id="kjc-6j-eA7"/>
+                            <constraint firstItem="ry6-5Z-xc1" firstAttribute="leading" secondItem="l6F-Lp-Vsd" secondAttribute="trailing" constant="15" id="y1y-Jm-qrj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4PN-XC-lEE"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="180"/>
+                    <connections>
+                        <outlet property="additionsLabel" destination="yHF-vL-Ijr" id="2gi-XK-lBy"/>
+                        <outlet property="burgerNameLabel" destination="EgA-bA-6oO" id="4VA-P3-LeO"/>
+                        <outlet property="everythingIsOkLabel" destination="HMx-K0-c3r" id="iJM-x1-2AV"/>
+                        <outlet property="quantityLabel" destination="FmI-2p-NQF" id="PP4-Sb-qyj"/>
+                        <outlet property="waitTime" destination="tcg-he-CzD" id="55Y-gB-zrs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118.84057971014494" y="40.848214285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="724" height="664"/>
+    </resources>
+</document>
