@@ -15,6 +15,7 @@
 		240852562256C1DD0074F658 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240852552256C1DD0074F658 /* OrderTableViewCell.swift */; };
 		240A0B5B22DFA3F1002E60E5 /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A0B5A22DFA3F1002E60E5 /* Array+Additions.swift */; };
 		240A0B6222DFAA48002E60E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A0B6122DFAA48002E60E5 /* Constants.swift */; };
+		240A0B6522DFCBEB002E60E5 /* SuccessOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A0B6422DFCBEB002E60E5 /* SuccessOrderViewModel.swift */; };
 		24243D3222622B070021420F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24243D3122622B070021420F /* MenuViewController.swift */; };
 		24243D3422622D2E0021420F /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24243D3322622D2E0021420F /* Date+String.swift */; };
 		24243D36226231270021420F /* SuccessOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24243D35226231270021420F /* SuccessOrderViewController.swift */; };
@@ -108,6 +109,7 @@
 		240852552256C1DD0074F658 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 		240A0B5A22DFA3F1002E60E5 /* Array+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Additions.swift"; sourceTree = "<group>"; };
 		240A0B6122DFAA48002E60E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		240A0B6422DFCBEB002E60E5 /* SuccessOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessOrderViewModel.swift; sourceTree = "<group>"; };
 		24243D3122622B070021420F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		24243D3322622D2E0021420F /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
 		24243D35226231270021420F /* SuccessOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessOrderViewController.swift; sourceTree = "<group>"; };
@@ -313,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				240852492256B0310074F658 /* OrderViewModel.swift */,
+				240A0B6422DFCBEB002E60E5 /* SuccessOrderViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -650,6 +653,7 @@
 				24243D3822625C910021420F /* UIStoryboards+Init.swift in Sources */,
 				2408524C2256B75D0074F658 /* DefaultTextField.swift in Sources */,
 				2408524E2256B7CC0074F658 /* UIViewController+HideKeyboard.swift in Sources */,
+				240A0B6522DFCBEB002E60E5 /* SuccessOrderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

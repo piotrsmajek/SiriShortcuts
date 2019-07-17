@@ -19,7 +19,7 @@ class SuccessOrderViewController: UIViewController {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var button: UIButton!
     
-    var order: Order?
+    var viewModel: SuccessOrderViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +28,7 @@ class SuccessOrderViewController: UIViewController {
     }
     
     private func setup() {
-        guard let order = order else { return }
+        guard let order = viewModel?.order else { return }
         burgerNameLabel.text = order.name
         quantityLabel.text = "\(String(order.quantity)) pcs."
 
@@ -37,7 +37,7 @@ class SuccessOrderViewController: UIViewController {
     }
     
     private func addSiriButton() {
-        guard let order = order else { return }
+        guard let order = viewModel?.order else { return }
         let addShortcutButton = INUIAddVoiceShortcutButton(style: .blackOutline)
         addShortcutButton.shortcut = INShortcut(intent: order.intent)
         addShortcutButton.delegate = self

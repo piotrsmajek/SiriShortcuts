@@ -131,7 +131,7 @@ class MakeOrderViewController: UIViewController {
     private func navigateToSuccess() {
         guard let order = viewModel.burgerOrder else { return }
         let viewController: SuccessOrderViewController = UIStoryboard.instantiateVC(Scene.SuccessOrder)
-        viewController.order = order
+        viewController.viewModel = SuccessOrderViewModel(with: order)
         navigationController?.pushViewController(viewController, animated: true)
     }
     
