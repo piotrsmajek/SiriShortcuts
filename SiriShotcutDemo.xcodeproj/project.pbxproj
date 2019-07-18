@@ -961,7 +961,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA994787D8A8C629CA5F1856 /* Pods-SiriShotcutDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SiriShotcutDemo/SiriShotcutDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -982,7 +982,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D6784BABFC978B56DBF9317 /* Pods-SiriShotcutDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SiriShotcutDemo/SiriShotcutDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
